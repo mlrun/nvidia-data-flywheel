@@ -35,6 +35,6 @@ spec:
     kind: job
     handler: shutdown_deployment
     with_repo: true
-  source: git://github.com/yonishelach/data-flywheel.git#development
+  source: git://github.com/mlrun/nvidia-data-flywheel.git
   conda: ''
 kind: project
