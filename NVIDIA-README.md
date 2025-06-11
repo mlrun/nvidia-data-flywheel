@@ -485,7 +485,7 @@ uv run python scripts/generate_openapi.py
 
 ## License
 
-This NVIDIA AI BLUEPRINT is licensed under the [Apache License, Version 2.0.](./LICENSE) This project will download and install additional third-party open source software projects and containers. Review [the license terms of these open source projects](./LICENSE-3rd-party.txt) before use.
+This NVIDIA AI BLUEPRINT is licensed under the [Apache License, Version 2.0.](./NVIDIA-LICENSE) This project will download and install additional third-party open source software projects and containers. Review [the license terms of these open source projects](./NVIDIA-LICENSE-3rd-party.txt) before use.
 
 The software and materials are governed by the NVIDIA Software License Agreement (found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/) and the Product-Specific Terms for NVIDIA AI Products (found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/), except that models are governed by the AI Foundation Models Community License Agreement (found at NVIDIA Agreements | Enterprise Software | NVIDIA Community Model License) and NVIDIA dataset is governed by the NVIDIA Asset License Agreement found [here](./data/LICENSE.DATA).
 
