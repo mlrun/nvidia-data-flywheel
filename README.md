@@ -25,13 +25,13 @@ MLRun is integrated into the original blueprint in the following order:
 
 ## Blueprint Roadmap
 
-[x] Using MLRun to orchestrate the original NVIDIA Data Flywheel Foundational Blueprint workflow, turning each NeMo Microservice 
-    into a runnable MLRun function.
-[ ] Deploy NIMs as Nuclio serverless functions via MLRun, allowing for auto-scaling and resource management.
-[ ] Remove redundant boilerplate code and glue logic, including MongoDB requirement as all runs are stored within 
-    MLRun. making the codebase cleaner and more maintainable.
-[ ] Add auto-logging capability for NeMo Evaluator and Customizer runs, logging and visualizing the jobs via MLRun.
-[ ] Generalize the blueprint to accept any dataset.
+- [x] Using MLRun to orchestrate the original NVIDIA Data Flywheel Foundational Blueprint workflow, turning each NeMo Microservice 
+      into a runnable MLRun function.
+- [ ] Deploy NIMs as Nuclio serverless functions via MLRun, allowing for auto-scaling and resource management.
+- [ ] Remove redundant boilerplate code and glue logic, including MongoDB requirement as all runs are stored within 
+      MLRun. making the codebase cleaner and more maintainable.
+- [ ] Add auto-logging capability for NeMo Evaluator and Customizer runs, logging and visualizing the jobs via MLRun.
+- [ ] Generalize the blueprint to accept any dataset.
 
 ## Disclaimer
 
