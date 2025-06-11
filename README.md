@@ -38,3 +38,9 @@ MLRun is integrated into the original blueprint in the following order:
 In addition to the original blueprint's disclaimer, the purpose of this Blueprint is to showcase MLRun's integration 
 with NeMo Microservices and educate the community on MLOps best practices. This code is provided "as-is" as a reference 
 implementation, and should not be used in production. 
+
+## License
+
+The MLRun-related code is licensed under the [Apache License, Version 2.0.](./LICENSE). Refer to the [NVIDIA license](./NVIDIA-LICENSE) 
+for the NVIDIA AI BLUEPRINT license. For more information about NVIDIA license and additional 3rd party license data, refer to the 
+[NVIDIA readme](./NVIDIA-README.md). Review all licenses before use.
