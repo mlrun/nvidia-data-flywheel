@@ -1,0 +1,40 @@
+spec:
+  functions:
+  - url: src/mlrun/create_dataset.py
+    name: create-dataset
+    kind: job
+    handler: create_dataset
+    with_repo: true
+  - url: src/mlrun/wait_for_llm_as_a_judge.py
+    name: wait-for-llm-as-a-judge
+    kind: job
+    handler: wait_for_llm_as_judge
+    with_repo: true
+  - url: src/mlrun/spin_up.py
+    name: spin-up-nims
+    kind: job
+    handler: spin_up_nim
+    with_repo: true
+  - url: src/mlrun/evaluate.py
+    name: evaluate
+    kind: job
+    handler: run_base_eval
+    with_repo: true
+  - url: src/mlrun/customization.py
+    name: customize
+    kind: job
+    handler: start_customization
+    with_repo: true
+  - url: src/mlrun/finalize.py
+    name: finalize
+    kind: job
+    handler: finalize_flywheel_run
+    with_repo: true
+  - url: src/mlrun/shutdown_deployment.py
+    name: shutdown-deployment
+    kind: job
+    handler: shutdown_deployment
+    with_repo: true
+  source: git://github.com/yonishelach/data-flywheel.git#development
+  conda: ''
+kind: project
